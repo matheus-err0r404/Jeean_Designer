@@ -439,6 +439,8 @@ main .sobre {
         gap: 10px;
     }
 
+}
+
 @media (max-width: 1089px){
     
     .resume_generico .experience_content{
