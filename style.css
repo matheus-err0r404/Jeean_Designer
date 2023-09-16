@@ -9,6 +9,7 @@
 }
 
 body {
+
     max-width: 1200px;
     margin: 0 auto;
     background-color: #0D1216;
@@ -366,42 +367,16 @@ main .sobre {
 @media(max-width:992px){
     /* se quiser colar uma imagem de fundo apneas use esse cód: background-image: url(); */
     .section-div {
-        width: 100%;
-        display:grid;
-        grid-template-areas: 
-        "h1 h1"
-        "p p";
-        align-items: center;
-        grid-template-columns: 1fr ;
+        gap: 30px;
+        padding: 30px;
     }
 
     .section-div h1 {
-        grid-area: h1;
-        width: 100%;
-        text-align: justify; /* Centralizar texto */
-        font-size: 36.8px;
-        margin-top: -130px;
-    }
-
-    .section-div h2{
-        grid-area: h1;
-        margin-top:-90px;
-        font-size: 36.8px;
-        text-align:start;
+        font-size: 24px;
     }
 
     .section-div img {
-        grid-area: h1;
-        max-width: 300px;
-        max-height: 300px;
-        margin-left: -40px;
-        
-           
-    }
-
-    .section-div h1, .section-div img {
-       
-        flex: 1; /* Distribui igualmente o espaço horizontal entre os h1 e a img */
+        max-width: 100%;
     }
 
     .section-div p {
@@ -412,23 +387,17 @@ main .sobre {
         text-align:start; /* Centralizar texto */
     }
 
-    header {
-        
-        justify-content: space-between;
-        padding: 30px 70px;
-    }
-
-    header h1{
-       display: grid;
+   header {
+        padding: 10px 20px; /* Ajuste o preenchimento */
     }
 
     header .navegacao-primaria {
-        display: none;
+        display: none; /* Ocultar a navegação primária */
     }
 
     header i.fa-solid.fa-bars::before {
-        color: #f7f7f7;
-        font-size: 3rem;
+        display: block; /* Tornar o ícone de menu visível */
+        /* Outros estilos para o ícone de menu */
     }
 
     header .navegacao-primaria.ativado {
@@ -449,16 +418,26 @@ main .sobre {
 
 
 @media(max-width:992px){
-    .sobre img{
-        grid-column: 1/-1;
-        justify-self:center;
+    main .sobre {
+        gap: 20px;
+        padding: 20px;
     }
 
-    .sobre_conteudo {
-        grid-column: 1/-1;
+    .sobre_titulo h1 {
+        font-size: 24px;
     }
 
-}
+    .sobre_texto h1 {
+        font-size: 24px;
+    }
+
+    .sobre_texto p {
+        font-size: 14px;
+    }
+
+    .sobre_info {
+        gap: 10px;
+    }
 
 @media (max-width: 1089px){
     
@@ -509,6 +488,13 @@ main .sobre {
         padding: 10px;
     }
 } 
+
+    @media(max-width: 992px) {
+    /* Estilos para telas menores no rodapé */
+    footer {
+        padding: 20px;
+    }
+}
 
 @media screen and (max-width: 1089px) {
 
