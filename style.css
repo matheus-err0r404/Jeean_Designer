@@ -1043,6 +1043,11 @@ footer .footer_comercial {
 /*Responsivo de 1024*/
 @media(max-width: 1024px) {
 
+    #conteudo {
+        max-width: 1024px;
+        overflow-x: hidden;
+    }
+
     header h1, header span, header i {
        font-size: 2rem;
     }
@@ -1203,6 +1208,11 @@ footer .footer_comercial {
 }
 
 @media (max-width: 768px) {
+    #conteudo {
+        max-width: 768px;
+        overflow-x: hidden;
+    }
+
     body {
         width: 768px;
     }
@@ -1385,13 +1395,12 @@ footer .footer_comercial {
 
 }
 
-@media screen and (max-width:425px) {
-     #conteudo {
+@media screen and (max-width:425.60px) {
+    #conteudo {
         max-width: 425px;
         overflow-x: hidden;
     }
 
-    
     body {
         width: 425px;
     }
@@ -1687,6 +1696,8 @@ footer .footer_comercial {
 
 
 @media screen and (max-width:375.20px) {
+    
+
     body {
         width: 375px;
     }
@@ -1987,7 +1998,7 @@ footer .footer_comercial {
     }
 
     .whatsapp{
-        right: 5px;
+        right: 3px;
     }
 
     .whatsapp img {
