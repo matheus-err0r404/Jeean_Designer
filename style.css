@@ -1386,6 +1386,12 @@ footer .footer_comercial {
 }
 
 @media screen and (max-width:425px) {
+     #conteudo {
+        max-width: 425px;
+        overflow-x: hidden;
+    }
+
+    
     body {
         width: 425px;
     }
