@@ -1739,8 +1739,8 @@ footer#contact .sobre_titulo h1 i {
     }
 
     .whatsapp {
-        right: 20px;
-        z-index: 1;
+        right: 25px;
+        
     }
 
     .whatsapp img {
@@ -1768,6 +1768,9 @@ footer#contact .sobre_titulo h1 i {
         animation: sobeSecao .8s ease-in-out forwards;
     }
 }
+
+.whatsapp {
+        right: 20px;
 
 
 @media screen and (max-width:375.20px) {
