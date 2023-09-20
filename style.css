@@ -1566,6 +1566,11 @@ footer#contact .sobre_titulo h1 i {
 
     /*Aba1*/
 
+     #conteudo {
+        max-width: 425px;
+        overflow-x: hidden;
+    }
+
     header.aba a , header.aba span , header.aba i {
         font-size: 2.3rem;
     }
@@ -1595,6 +1600,11 @@ footer#contact .sobre_titulo h1 i {
 
     /*Aba2*/
 
+     #conteudo {
+        max-width: 425px;
+        overflow-x: hidden;
+    }
+
     body.aba {
         width: 425px;
     }
@@ -1620,6 +1630,11 @@ footer#contact .sobre_titulo h1 i {
 
     /*Aba3*/
 
+     #conteudo {
+        max-width: 425px;
+        overflow-x: hidden;
+    }
+
     body.aba {
         width: 425px;
     }
@@ -1644,6 +1659,11 @@ footer#contact .sobre_titulo h1 i {
     }
 
     /*Aba4*/
+
+     #conteudo {
+        max-width: 425px;
+        overflow-x: hidden;
+    }
 
     body.aba {
         width: 425px;
