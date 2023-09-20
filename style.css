@@ -558,15 +558,15 @@ div.h1-aba1 {
     transition: all ease-in-out .3s;
 }
 
-.secao-imagens1 a.scroll-link {
-    background-color: #1b2129;
+div.botao-aba a.scroll-link {
     text-decoration: none;
     justify-self: center;
-    padding: 20px 40px;
-    border: 1px solid #31353c;
-    color: #707070;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    color: #31353c;
     font-family: 'Montserrat';
     font-size: 1.1rem;
+    background-color: #050708;
 }
 
 /* IMAGENS EM ABA 2 */
@@ -609,16 +609,7 @@ div.p-aba2 {
     transition: all ease-in-out .3s;
 }
 
-.secao-imagens2 a.scroll-link {
-    background-color: #1b2129;
-    text-decoration: none;
-    justify-self: center;
-    padding: 20px 40px;
-    border: 1px solid #31353c;
-    color: #707070;
-    font-family: 'Montserrat';
-    font-size: 1.1rem;
-}
+
 
 /* IMAGENS EM ABA 3 */
 
@@ -653,16 +644,7 @@ div.h1-aba3 {
     transition: all ease-in-out .3s;
 }
 
-.secao-imagens3 a.scroll-link {
-    background-color: #1b2129;
-    text-decoration: none;
-    justify-self: center;
-    padding: 20px 40px;
-    border: 1px solid #31353c;
-    color: #707070;
-    font-family: 'Montserrat';
-    font-size: 1.1rem;
-}
+
 
 /* IMAGENS EM ABA 4 */
 
@@ -697,16 +679,7 @@ div.h1-aba4 {
     transition: all ease-in-out .3s;
 }
 
-.secao-imagens4 a.scroll-link {
-    background-color: #1b2129;
-    text-decoration: none;
-    justify-self: center;
-    padding: 20px 40px;
-    border: 1px solid #31353c;
-    color: #707070;
-    font-family: 'Montserrat';
-    font-size: 1.1rem;
-}
+
 
 /*FEEDBACKS */
 
