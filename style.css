@@ -52,7 +52,7 @@ header span {
 }
 
 header span i {
-    color: #0047FF;
+    color: #702DFA;
     font-size: 2.5rem;
 }
 
@@ -558,6 +558,17 @@ div.h1-aba1 {
     transition: all ease-in-out .3s;
 }
 
+.secao-imagens1 a.scroll-link {
+    background-color: #1b2129;
+    text-decoration: none;
+    justify-self: center;
+    padding: 20px 40px;
+    border: 1px solid #31353c;
+    color: #707070;
+    font-family: 'Montserrat';
+    font-size: 1.1rem;
+}
+
 /* IMAGENS EM ABA 2 */
 
 div.h1-aba2 {
@@ -598,6 +609,17 @@ div.p-aba2 {
     transition: all ease-in-out .3s;
 }
 
+.secao-imagens2 a.scroll-link {
+    background-color: #1b2129;
+    text-decoration: none;
+    justify-self: center;
+    padding: 20px 40px;
+    border: 1px solid #31353c;
+    color: #707070;
+    font-family: 'Montserrat';
+    font-size: 1.1rem;
+}
+
 /* IMAGENS EM ABA 3 */
 
 div.h1-aba3 {
@@ -630,6 +652,18 @@ div.h1-aba3 {
     border-radius: 5px;
     transition: all ease-in-out .3s;
 }
+
+.secao-imagens3 a.scroll-link {
+    background-color: #1b2129;
+    text-decoration: none;
+    justify-self: center;
+    padding: 20px 40px;
+    border: 1px solid #31353c;
+    color: #707070;
+    font-family: 'Montserrat';
+    font-size: 1.1rem;
+}
+
 /* IMAGENS EM ABA 4 */
 
 div.h1-aba4 {
@@ -663,6 +697,16 @@ div.h1-aba4 {
     transition: all ease-in-out .3s;
 }
 
+.secao-imagens4 a.scroll-link {
+    background-color: #1b2129;
+    text-decoration: none;
+    justify-self: center;
+    padding: 20px 40px;
+    border: 1px solid #31353c;
+    color: #707070;
+    font-family: 'Montserrat';
+    font-size: 1.1rem;
+}
 
 /*FEEDBACKS */
 
@@ -1009,6 +1053,10 @@ footer .footer_comercial {
     font-size: 1.3rem;
     font-family: 'Poppins';
 }
+
+footer#contact .sobre_titulo h1 i {
+    color: #702DFA;
+}
 /*Parte do Botão do whatsapp*/
 
 .whatsapp {
@@ -1198,6 +1246,11 @@ footer .footer_comercial {
         width: 300px;
     }
 
+    .projects_armazenamento ul img {
+        width: 100%;
+        height: auto;
+    }
+
 
 
     footer {
@@ -1206,6 +1259,8 @@ footer .footer_comercial {
     
 
 }
+
+/*RESPONSIVO TELA 768PX*/
 
 @media (max-width: 768px) {
     #conteudo {
@@ -1239,7 +1294,7 @@ footer .footer_comercial {
         position: absolute;
         display: grid;
         color: #f7f7f7;
-        z-index: 1;
+        z-index: 2;
         padding: 30px;
         font-size: 1.6rem;
         font-weight: bold;
@@ -1387,13 +1442,18 @@ footer .footer_comercial {
         width: 300px;
     }
 
-
+    .projects_armazenamento ul img {
+        width: 100%;
+        height: auto;
+    }
 
     footer {
         width: 768px;
     }
 
 }
+
+/*RESPONSIVO TELA 425PX */
 
 @media screen and (max-width:425.60px) {
     #conteudo {
@@ -1440,7 +1500,7 @@ footer .footer_comercial {
         font-weight: bold;
         border-radius: 0 0 4px 4px;
         right: 4px;
-        bottom: 300px;
+        bottom: 120px;
         animation: sobeSecao .8s ease-in-out forwards;
     }
 
@@ -1515,6 +1575,12 @@ footer .footer_comercial {
     
     .my_services ul li {
         padding: 15px;
+    }
+
+    div.resume_generico h2.experience{
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
     }
 
     div.experience_content {
@@ -1628,6 +1694,8 @@ footer .footer_comercial {
         width: 300px;
     }
 
+    
+
 
 
     div#pricing.funfacts  {
@@ -1642,8 +1710,14 @@ footer .footer_comercial {
     }
 
     .feedbacks {
-        width: 425px;
-        border-radius: 0%;
+        width: 400px;
+        border-radius: 5px;
+        padding: 10px;
+        margin-right:18px;
+    }
+
+    .star-widget label{
+        width:55px;
     }
     
     .projects {
@@ -1660,6 +1734,11 @@ footer .footer_comercial {
 
     .projects a {
         padding: 15px 30px; /* Reduz o tamanho do botão de retorno */
+    }
+
+    .projects_armazenamento ul img {
+        width: 100%;
+        height: auto;
     }
 
     .sobre_titulo h1{
@@ -1686,12 +1765,35 @@ footer .footer_comercial {
         font-size: 1rem;
     }
 
+    .whatsapp {
+        right: 20px;
+        z-index: 1;
+    }
+
     .whatsapp img {
         max-width: 90%;
     }
    
 
 
+}
+
+@media screen and (max-width:414px) {
+    
+    header .navegacao-primaria.ativado {
+        background: linear-gradient(rgba(26, 26, 26, 0.822), rgba(46, 46, 46, 0.724));
+        position: absolute;
+        display: grid;
+        color: #f7f7f7;
+        z-index: 2;
+        padding: 30px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border-radius: 0 0 4px 4px;
+        right: 4px;
+        bottom: 185px;
+        animation: sobeSecao .8s ease-in-out forwards;
+    }
 }
 
 
@@ -1967,6 +2069,11 @@ footer .footer_comercial {
 
     .projects_armazenamento{
         width: 320px;
+    }
+
+    .projects_armazenamento ul img{
+        width: 100%;
+        height: auto;
     }
 
     .projects a {
@@ -2289,6 +2396,11 @@ footer .footer_comercial {
 
     .projects_armazenamento{
         width: 300px;
+    }
+
+    .projects_armazenamento ul img {
+        width: 100%;
+        height: auto;
     }
 
     .projects a {
