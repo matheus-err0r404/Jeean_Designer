@@ -1792,6 +1792,7 @@ footer#contact .sobre_titulo h1 i {
 .whatsapp {
         right: 20px;
 
+}
 
 @media screen and (max-width:375.20px) {
     
@@ -2115,6 +2116,11 @@ footer#contact .sobre_titulo h1 i {
 
 
 @media screen and (max-width:320px) {
+    #conteudo {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     body {
         width: 320px;
     }
@@ -2444,4 +2450,5 @@ footer#contact .sobre_titulo h1 i {
 }
 
 
-/* Fim do css*/
+
+/* Fim do css */
